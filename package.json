@@ -11,7 +11,8 @@
   "description": "my first api proj",
   "main": "./src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "npx tailwindcss@latest init -p && npx tailwindcss@latest -i ./src/css/input.css -o ./src/css/output.css --watch"
   },
   "repository": {
     "type": "git",
