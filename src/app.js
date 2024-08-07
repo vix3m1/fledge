@@ -19,7 +19,7 @@ function renderData(categories,products) {
     tempDivs.forEach(loading => {
         loading.classList.add("hide");
     });
-    for(let i = 0; i < categories.length - 20; i++) {
+    for(let i = 0; i < categories.length; i++) {
       const dataCategories = document.createElement("div");
       dataCategories.classList.add("px-5", "whitespace-nowrap", "loading", "bg-[#f5f5f5]", "h-[.95cm]", "flex", "justify-center", "items-center", "w-full", "font-jakar")
       dataCategories.innerHTML = `${categories[i].name}`
