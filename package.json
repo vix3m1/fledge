@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.1",
+    "axios": "^1.7.3"
+  },
+  "name": "fledgemart",
+  "version": "1.0.0",
+  "description": "my first api proj",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rxji1/fledgemart.git"
+  },
+  "keywords": [
+    "E-commerce"
+  ],
+  "author": "Renz Mansueto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rxji1/fledgemart/issues"
+  },
+  "homepage": "https://github.com/Rxji1/fledgemart#readme"
+}

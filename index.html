@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="./src/css/output.css"
+            type="text/css"
+            media="all"
+        />
+        <link
+            rel="stylesheet"
+            href="./node_modules/@flaticon/flaticon-uicons/css/all/all.css"
+            type="text/css"
+            media="all"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <title>FledgeMart</title>
+    </head>
+
+    <body class="h-screen bg-[#f0f0f0]">
+        <!--   <div class="bg-[#15151b] absolute w-full h-[100dvh] shadow flex justify-center items-center fixed top-0 left-0 ">
+  <div class="w-[2.5rem] h-[2.5rem] md:h-14 md:w-14 rounded-full border-4 border-t-[#ed5b5b] border-[#242424] border-solid animate-spin">
+  </div>
+  </div>
+   -->
+        <div
+            class="w-full z-10 sticky top-0 left-0 py-4 px-3 border-b-[#00000016] mb-14 bg-[#fafafa]"
+        >
+          <div class="flex items-center w-full">
+            
+            <a href="#menu" class="px-[4.5px] py-[12px]">
+                <div
+                    class="w-[.75cm] rounded-full h-[3.5px] bg-[#ec7777] mb-[5px]"
+                ></div>
+                <div
+                    class="w-[0.5cm] rounded-full h-[3.5px] bg-[#ec7777]"
+                ></div>
+            </a>
+            <div class="w-full px-5">
+                <p class="font-jakar text-[20px] text-[#121212]">Fledge</p>
+            </div>
+            <div class="h-full px-2 inline-flex justify-items-end">
+                <div class="cursor-pointer px-1 mr-2">
+                    <i
+                        class="fi fi-rr-search relative top-[2.8px] text-[1.2rem]"
+                    ></i>
+                </div>
+                <div class="cursor-pointer px-1">
+                    <i
+                        class="fi fi-rr-shopping-cart relative top-[2.8px] text-[1.2rem]"
+                    ></i>
+                </div>
+            </div>
+          </div>
+                  <div
+            id="category"
+            class="categories h-fit w-full flex flex-nowrap absolute bottom-[-36px] left-0 divide-x shrink-0 overflow-x-scroll overflow-y-hidden no-scrollbar"
+        >
+            <div
+                class="w-[3.8cm] loading min-w-[3cm] bg-gray-300 h-[.95cm] rounded-md !mr-1"
+            ></div>
+            <div
+                class="w-[3.8cm] loading min-w-[3cm] bg-gray-300 h-[.95cm] rounded-md !mr-1"
+            ></div>
+            <div
+                class="w-[3.8cm] loading min-w-[3cm] bg-gray-300 h-[.95cm] rounded-md !mr-1"
+            ></div>
+        </div>
+        </div>
+
+        <!-- end of nav bar -->
+
+        <div class="container px-3 py-4">
+            <div
+                id="products"
+                class="products grid grid-cols-2 gap-2 gap-y-4 place-content-center px-2"
+            >
+                <div
+                    class="w-[4.1cm] max-h-[6.5cm] loading rounded-md h-[6.5cm] bg-gray-300 overflow-y-scroll flex flex-col"
+                >
+                    <div class="h-[7.5cm]">
+                        <!-- IMG HERE -->
+                    </div>
+                    <div
+                        class="h-full w-full bg-gray-200 flex relative flex-col py-3 px-3 rounded-md"
+                    >
+                        <div
+                            class="w-[3cm] h-[.6cm] rounded-sm bg-gray-300 mb-2"
+                        ></div>
+                        <div
+                            class="w-[2.6cm] h-[.5cm] rounded-sm bg-gray-300"
+                        ></div>
+                    </div>
+                </div>
+
+                <div
+                    class="w-[4.1cm] max-h-[6.5cm] loading rounded-md h-[6.5cm] bg-gray-300 overflow-y-scroll flex flex-col"
+                >
+                    <div class="h-[7.5cm]">
+                        <!-- IMG HERE -->
+                    </div>
+                    <div
+                        class="h-full w-full bg-gray-200 flex relative flex-col py-3 px-3 rounded-md"
+                    >
+                        <div
+                            class="w-[3cm] h-[.6cm] rounded-sm bg-gray-300 mb-2"
+                        ></div>
+                        <div
+                            class="w-[2.6cm] h-[.5cm] rounded-sm bg-gray-300"
+                        ></div>
+                    </div>
+                </div>
+
+                <div
+                    class="w-[4.1cm] max-h-[6.5cm] loading rounded-md h-[6.5cm] bg-gray-300 overflow-y-scroll flex flex-col"
+                >
+                    <div class="h-[7.5cm]">
+                        <!-- IMG HERE -->
+                    </div>
+                    <div
+                        class="h-full w-full bg-gray-200 gtid relative py-3 px-3 rounded-md"
+                    >
+                        <div
+                            class="w-[3cm] h-[.6cm] rounded-sm bg-gray-300 mb-2"
+                        ></div>
+                        <div
+                            class="w-[2.6cm] h-[.5cm] rounded-sm bg-gray-300"
+                        ></div>
+                    </div>
+                </div>
+
+                <div
+                    class="w-[4.1cm] max-h-[6.5cm] loading rounded-md h-[6.5cm] bg-gray-300 overflow-y-scroll flex flex-col"
+                >
+                    <div class="h-[7cm]"></div>
+                    <div
+                        class="h-full w-full bg-gray-200 relative py-3 px-3 rounded-md"
+                    >
+                        <div
+                            class="w-[3cm] h-[.6cm] rounded-sm bg-gray-300 mb-2"
+                        ></div>
+
+                        <div
+                            class="w-[2.6cm] h-[.5cm] rounded-sm bg-gray-300"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./node_modules/axios/dist/axios.min.js"></script>
+        <script src="./src/app.js"></script>
+    </body>
+</html>
